@@ -1,0 +1,7 @@
+git clone https://github.com/mv-lab/InstructIR.git
+pip install imageio
+pip install opencv-python
+pip uninstall torch torchvision torchaudio -y
+pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pytorch.org/whl/cu117/torch_stable.html
+download cuda toolkit 11.7.1 >> https://developer.nvidia.com/cuda-11-7-1-download-archive
+pip install --upgrade tokenizers==0.20.3
